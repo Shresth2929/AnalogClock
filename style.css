@@ -1,0 +1,56 @@
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  #clockcontainer {
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background: url(clock.jpg) no-repeat;
+    background-size: 100%;
+    }
+    .title{
+    position: relative;
+    height: 20%;
+    width: 30%;
+    top:100%;
+    left: 55%;
+    font-family: 'Roboto';
+    }
+    #hour, #min, #sec {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    
+    #hour {
+    width: 2%;
+    height: 19%;
+    top: 24%;
+    transform-origin: bottom;
+    }
+    
+    #min {
+    width: 1.5%;
+    height: 22%;
+    top: 20%;
+    transform-origin: bottom;
+    }
+    
+    #sec {
+    width: 1%;
+    height: 25%;
+    top: 16.7%;
+    transform-origin: bottom;
+    }
